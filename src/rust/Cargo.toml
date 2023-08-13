@@ -1,0 +1,14 @@
+[package]
+name = 'blake3r'
+version = '0.1.0'
+edition = '2021'
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'blake3r'
+
+[dependencies]
+extendr-api = '*'
+blake3 = { version = "1.4", features = ["rayon"] }
+memmap2 = "0.7.1"
+rayon = "1.7.0"
