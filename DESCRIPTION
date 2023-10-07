@@ -2,7 +2,8 @@ Package: blake3r
 Title: Blake3 Hasher
 Version: 0.0.1
 Authors@R: 
-    person("Devin", "Pastoor", , "devin.pastoor@gmail.com", role = c("aut", "cre"))
+    person("Devin", "Pastoor", , "devin.pastoor@gmail.com", role = c("aut", "cre"),
+    person("Authors of the dependency Rust crates", role = "aut", comment = "see AUTHORS file"))
 Description: Calculate blake3 hashes on files using rust's reference blake3 implementation.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
