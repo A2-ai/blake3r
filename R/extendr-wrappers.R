@@ -11,12 +11,8 @@
 #' @useDynLib blake3r, .registration = TRUE
 NULL
 
-#' Return string `"Hello world!"` to R.
-#' @export
 hash_file_with_blake3_impl <- function(file_path) .Call(wrap__hash_file_with_blake3_impl, file_path)
 
-#' Return string `"Hello world!"` to R.
-#' @export
 hash_file_with_blake3_direct_impl <- function(file_path) .Call(wrap__hash_file_with_blake3_direct_impl, file_path)
 
 

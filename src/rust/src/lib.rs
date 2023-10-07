@@ -4,8 +4,6 @@ use std::io::{self, Read};
 use blake3::Hasher;
 use std::io::Result;
 
-/// Return string `"Hello world!"` to R.
-/// @export
 #[extendr]
 fn hash_file_with_blake3_impl(file_path: &str) -> String {
     match hash_file_with_blake3(&file_path) {
@@ -14,8 +12,6 @@ fn hash_file_with_blake3_impl(file_path: &str) -> String {
     }
 }
 
-/// Return string `"Hello world!"` to R.
-/// @export
 #[extendr]
 fn hash_file_with_blake3_direct_impl(file_path: &str) -> String {
     match hash_file_with_blake3_direct(&file_path) {
