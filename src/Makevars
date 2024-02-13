@@ -1,7 +1,7 @@
 TARGET_DIR = ./rust/target
 LIBDIR = $(TARGET_DIR)/release
-STATLIB = $(LIBDIR)/libblake3r.a
-PKG_LIBS = -L$(LIBDIR) -lblake3r
+STATLIB = $(LIBDIR)/libnonmemtools.a
+PKG_LIBS = -L$(LIBDIR) -lnonmemtools
 
 all: C_clean
 
@@ -28,3 +28,4 @@ C_clean:
 
 clean:
 	rm -Rf $(SHLIB) $(STATLIB) $(OBJECTS) rust/target
+
