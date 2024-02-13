@@ -12,7 +12,9 @@ By providing an R interface, we can also interact with the metadata files `dvs` 
 independent to `dvs` entirely. At the moment, some testing has been done to confirm hashes come out
 consistent to the [b3sum cli](https://github.com/michaelforney/b3sum).
 
-
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/A2-ai/blake3r/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/A2-ai/blake3r/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
 
 ## more about BLAKE3
 
